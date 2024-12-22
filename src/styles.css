@@ -1,0 +1,59 @@
+/* Add your styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: 0;
+
+}
+
+.post {
+    margin: auto;
+    width: 60%;
+    border: 3px solid rgb(128, 0, 105);
+    padding-left: 30%;
+}
+
+.navbar {
+    background-color: #6200ea;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome_page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.login-container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.list {
+    color: rgb(243, 220, 85);
+    font-size: large;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #b5319f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #357ae8;
+}
